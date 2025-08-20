@@ -1,7 +1,7 @@
 wait(5)
-if game.ReplicatedStorage:WaitForChild("Infinity Tech License Service hZm5pYnpmbWpzd3JnY2pmb2l0Ii"):FindFirstChild("ManualTills") then
-	if game.ReplicatedStorage:WaitForChild("Infinity Tech License Service hZm5pYnpmbWpzd3JnY2pmb2l0Ii"):FindFirstChild("ManualTills"):GetTags()[1] ~= "hZm5pYnpmbWpzd3JnY2pmdsab2l0Ii" then
-		warn("Tampered License. Case reported.")
+if game.ReplicatedStorage:FindFirstChild("hghZm5pYnpmbWpzd3JnY2pmb2l0Ii"):FindFirstChild("ManualTills") then
+	if game.ReplicatedStorage:FindFirstChild("hghZm5pYnpmbWpzd3JnY2pmb2l0Ii"):FindFirstChild("ManualTills"):GetTags()[1] ~= "hZm5pYnpmbWpzd3JnY2pmdsab2l0Ii" then
+		warn("License not owned. Case reported!")
 		script:Destroy()
 	end
 end
