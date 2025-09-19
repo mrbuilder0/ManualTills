@@ -1,9 +1,7 @@
-wait(5)
-if game.ReplicatedStorage:FindFirstChild("hghZm5pYnpmbWpzd3JnY2pmb2l0Ii"):FindFirstChild("ManualTills") then
-	if game.ReplicatedStorage:FindFirstChild("hghZm5pYnpmbWpzd3JnY2pmb2l0Ii"):FindFirstChild("ManualTills"):GetTags()[1] ~= "hZm5pYnpmbWpzd3JnY2pmdsab2l0Ii" then
-		warn("License not owned. Case reported!")
-		script:Destroy()
-	end
+if script:GetTags()[1] ~= "hghZm5pYnpmbWpzd3JnY2pmb2l0Iidsadwa" then
+	warn("Tampered License: Case reported!")
+	game.ReplicatedFirst:FindFirstChild("Global_IT_License_API"):Fire(script.Parent.Parent.Parent.Name)
+	script:Destroy()
 end
 local till = script.Parent
 local settings  = require(game.Workspace["IT | Manual Tills"].Configuration.Settings)
@@ -467,3 +465,5 @@ event.Event:Connect(function(mode, arg1, arg2)
 		end
 	end
 end)
+
+resetF()
